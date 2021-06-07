@@ -33,11 +33,9 @@ class ViewController: UIViewController {
         
         demoList.append(["title":NSStringFromClass(FloatingVC.self),"des":"窗口悬浮"])
         
-//        demoList.append(["title":NSStringFromClass(AudioPlayerEditVC.self),"des":"音频编辑"])
-        
         demoList.append(["title":NSStringFromClass(DGVoiceNewEdit.self),"des":"音频混音"])
         
-        
+        demoList.append(["title":NSStringFromClass(AudioPlayerEditVC.self),"des":"音频播放"])
         
     }
 }

@@ -6,7 +6,7 @@ platform :ios, '11.0'
 def common
   #pod 'KSPlayer', :path => '../', :testspecs => ['Tests']
   #pod 'OpenSSL', :path => '../'
-  pod 'FFmpeg'
+  #pod 'FFmpeg'
 end
 
 target 'SwiftDemos' do

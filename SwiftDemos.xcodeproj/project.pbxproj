@@ -130,6 +130,7 @@
 		CA28C17C26325E8C002A2F53 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CABB8253266DC549003A462E /* FFmpeg-iOS */,
 				CA28C1902632609F002A2F53 /* test.caf */,
 				CA28C1932632628A002A2F53 /* 1619080963120recordVoice.mp3 */,
 				CA28C18B26325F1D002A2F53 /* AudioPlayerEditVC.swift */,
@@ -320,6 +321,85 @@
 				CAB8D3F12595C32A0024E3F1 /* tessdata */,
 			);
 			path = "Sipporting Files";
+			sourceTree = "<group>";
+		};
+		CABB8253266DC549003A462E /* FFmpeg-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CABB8254266DC549003A462E /* include */,
+				CABB825C266DC549003A462E /* lib */,
+			);
+			path = "FFmpeg-iOS";
+			sourceTree = "<group>";
+		};
+		CABB8254266DC549003A462E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CABB8255266DC549003A462E /* libavfilter */,
+				CABB8256266DC549003A462E /* libavutil */,
+				CABB8257266DC549003A462E /* libavdevice */,
+				CABB8258266DC549003A462E /* libavformat */,
+				CABB8259266DC549003A462E /* libswscale */,
+				CABB825A266DC549003A462E /* libavcodec */,
+				CABB825B266DC549003A462E /* libswresample */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CABB8255266DC549003A462E /* libavfilter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libavfilter;
+			sourceTree = "<group>";
+		};
+		CABB8256266DC549003A462E /* libavutil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libavutil;
+			sourceTree = "<group>";
+		};
+		CABB8257266DC549003A462E /* libavdevice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libavdevice;
+			sourceTree = "<group>";
+		};
+		CABB8258266DC549003A462E /* libavformat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libavformat;
+			sourceTree = "<group>";
+		};
+		CABB8259266DC549003A462E /* libswscale */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libswscale;
+			sourceTree = "<group>";
+		};
+		CABB825A266DC549003A462E /* libavcodec */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libavcodec;
+			sourceTree = "<group>";
+		};
+		CABB825B266DC549003A462E /* libswresample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libswresample;
+			sourceTree = "<group>";
+		};
+		CABB825C266DC549003A462E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		CAF8EC1C259489280006868E /* VisionDemo */ = {
@@ -640,12 +720,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6M58S79FU;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwifterSwift/SwifterSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyTesseract/SwiftyTesseract.framework/Headers\"",
+					"$(PROJECT_DIR)/SwifterSwift/AudioPlayer/FFmpeg-iOS/include",
+				);
 				INFOPLIST_FILE = SwiftDemos/Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SwifterSwift/AudioPlayer/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = deepSea.SwiftDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemos/DGVoiceEdit/Model/SwiftDemos-Bridging-Header.h";
@@ -665,12 +752,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6M58S79FU;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwifterSwift/SwifterSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyTesseract/SwiftyTesseract.framework/Headers\"",
+					"$(PROJECT_DIR)/SwifterSwift/AudioPlayer/FFmpeg-iOS/include",
+				);
 				INFOPLIST_FILE = SwiftDemos/Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SwifterSwift/AudioPlayer/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = deepSea.SwiftDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemos/DGVoiceEdit/Model/SwiftDemos-Bridging-Header.h";
