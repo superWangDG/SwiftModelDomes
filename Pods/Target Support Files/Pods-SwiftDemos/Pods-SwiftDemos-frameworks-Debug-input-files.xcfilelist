@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-SwiftDemos/Pods-SwiftDemos-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
 ${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
 ${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework

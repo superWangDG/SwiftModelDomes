@@ -9,6 +9,8 @@ import AVFoundation
 
 class DGVoiceMixTools {
     
+    
+    
     /// 合成音频（混音）
     /// - Parameters:
     ///   - toURL: 目标存储路径
@@ -60,7 +62,6 @@ class DGVoiceMixTools {
         // 获取音频的完成时间
         let recordDuration = CMTimeGetSeconds(recordAudioAsset.duration)
         let bgDuration = CMTimeGetSeconds(backAudioAsset.duration)
-        
         // 判断主音频的时间如果小于背景音乐 证明无需循环添加音轨资源
         var count:Int = Int(ceilf(Float(recordDuration / bgDuration)))
         if recordDuration < bgDuration {

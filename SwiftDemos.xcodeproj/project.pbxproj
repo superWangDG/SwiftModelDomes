@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0AAED12693E9140096F077 /* DGVoiceMixFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AAED02693E9140096F077 /* DGVoiceMixFileManager.swift */; };
 		CA28C18226325E98002A2F53 /* WQAudioSaveTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA28C17D26325E96002A2F53 /* WQAudioSaveTool.swift */; };
 		CA28C18326325E98002A2F53 /* WQAudioEditAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA28C17E26325E96002A2F53 /* WQAudioEditAction.swift */; };
 		CA28C18426325E98002A2F53 /* WQAudioEditModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA28C17F26325E97002A2F53 /* WQAudioEditModel.swift */; };
@@ -33,6 +34,9 @@
 		CA577131258733A0008F0D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA57712F258733A0008F0D39 /* Main.storyboard */; };
 		CA577133258733A3008F0D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA577132258733A3008F0D39 /* Assets.xcassets */; };
 		CA577136258733A3008F0D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA577134258733A3008F0D39 /* LaunchScreen.storyboard */; };
+		CA62DB9E2694E9E300076FD8 /* DGVoiceBGMList_Vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA62DB9C2694E9E300076FD8 /* DGVoiceBGMList_Vc.swift */; };
+		CA62DBA62694ECB400076FD8 /* DGVoiceBGMList_Tc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA62DBA42694ECB400076FD8 /* DGVoiceBGMList_Tc.swift */; };
+		CA62DBA72694ECB400076FD8 /* DGVoiceBGMList_Tc.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA62DBA52694ECB400076FD8 /* DGVoiceBGMList_Tc.xib */; };
 		CA6F669025AD8E320066BACD /* OpenAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6F668F25AD8E320066BACD /* OpenAppViewController.swift */; };
 		CA73AB4325889F8700FAC92D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73AB4225889F8700FAC92D /* TestViewController.swift */; };
 		CA82FA80259AC6090010D2BA /* SwifterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82FA7F259AC6090010D2BA /* SwifterVC.swift */; };
@@ -53,6 +57,7 @@
 		0E55BA517E4C694CCDD88008 /* Pods_SwiftDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B03D5635F11A62A91F8CD98 /* Pods-SwiftDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemos.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDemos/Pods-SwiftDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		C51145A72113C89E9398824A /* Pods-SwiftDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemos.release.xcconfig"; path = "Target Support Files/Pods-SwiftDemos/Pods-SwiftDemos.release.xcconfig"; sourceTree = "<group>"; };
+		CA0AAED02693E9140096F077 /* DGVoiceMixFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGVoiceMixFileManager.swift; sourceTree = "<group>"; };
 		CA28C17D26325E96002A2F53 /* WQAudioSaveTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQAudioSaveTool.swift; sourceTree = "<group>"; };
 		CA28C17E26325E96002A2F53 /* WQAudioEditAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQAudioEditAction.swift; sourceTree = "<group>"; };
 		CA28C17F26325E97002A2F53 /* WQAudioEditModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQAudioEditModel.swift; sourceTree = "<group>"; };
@@ -83,6 +88,9 @@
 		CA577132258733A3008F0D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA577135258733A3008F0D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA577137258733A3008F0D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA62DB9C2694E9E300076FD8 /* DGVoiceBGMList_Vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGVoiceBGMList_Vc.swift; sourceTree = "<group>"; };
+		CA62DBA42694ECB400076FD8 /* DGVoiceBGMList_Tc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGVoiceBGMList_Tc.swift; sourceTree = "<group>"; };
+		CA62DBA52694ECB400076FD8 /* DGVoiceBGMList_Tc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DGVoiceBGMList_Tc.xib; sourceTree = "<group>"; };
 		CA6F668F25AD8E320066BACD /* OpenAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAppViewController.swift; sourceTree = "<group>"; };
 		CA73AB4225889F8700FAC92D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		CA82FA7F259AC6090010D2BA /* SwifterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterVC.swift; sourceTree = "<group>"; };
@@ -125,6 +133,17 @@
 				0E55BA517E4C694CCDD88008 /* Pods_SwiftDemos.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0AAECF2693E8220096F077 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CA28C19626326317002A2F53 /* voice.mp3 */,
+				CA5757322643ED9A00FE2060 /* recordVoice.mp3 */,
+				CA57572A2643DBBC00FE2060 /* bgm_new.mp3 */,
+				CA87C0F5263805C10027C3C4 /* main_bgm.mp3 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		CA28C17C26325E8C002A2F53 /* AudioPlayer */ = {
@@ -195,6 +214,7 @@
 				CA5757272643D1B200FE2060 /* MixTool.h */,
 				CA5757262643D1AE00FE2060 /* MixTool.m */,
 				CA5757212643BB4300FE2060 /* DGVoiceMixTools.swift */,
+				CA0AAED02693E9140096F077 /* DGVoiceMixFileManager.swift */,
 				CA5757242643D1A300FE2060 /* SwiftDemos-Bridging-Header.h */,
 			);
 			path = Model;
@@ -250,6 +270,23 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		CA62DB9B2694E9B700076FD8 /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				CA62DB9C2694E9E300076FD8 /* DGVoiceBGMList_Vc.swift */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		CA62DBA32694ECA400076FD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA62DBA42694ECB400076FD8 /* DGVoiceBGMList_Tc.swift */,
+				CA62DBA52694ECB400076FD8 /* DGVoiceBGMList_Tc.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CA6F668E25AD8E200066BACD /* OpenApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,11 +306,10 @@
 		CA87C0EA2637F5AB0027C3C4 /* DGVoiceEdit */ = {
 			isa = PBXGroup;
 			children = (
+				CA62DBA32694ECA400076FD8 /* View */,
+				CA62DB9B2694E9B700076FD8 /* Vc */,
+				CA0AAECF2693E8220096F077 /* Resource */,
 				CA5757202643BAE300FE2060 /* Model */,
-				CA28C19626326317002A2F53 /* voice.mp3 */,
-				CA5757322643ED9A00FE2060 /* recordVoice.mp3 */,
-				CA57572A2643DBBC00FE2060 /* bgm_new.mp3 */,
-				CA87C0F5263805C10027C3C4 /* main_bgm.mp3 */,
 				CA87C0EF2637F5E90027C3C4 /* Base */,
 				CA87C0EB2637F5C70027C3C4 /* DGVoiceEdit_VC.swift */,
 				CA575718264390B900FE2060 /* DGVoiceNewEdit.swift */,
@@ -482,6 +518,7 @@
 				CA577136258733A3008F0D39 /* LaunchScreen.storyboard in Resources */,
 				CA5757332643ED9A00FE2060 /* recordVoice.mp3 in Resources */,
 				CA577133258733A3008F0D39 /* Assets.xcassets in Resources */,
+				CA62DBA72694ECB400076FD8 /* DGVoiceBGMList_Tc.xib in Resources */,
 				CA577131258733A0008F0D39 /* Main.storyboard in Resources */,
 				CA87C0F6263805C20027C3C4 /* main_bgm.mp3 in Resources */,
 				CA28C1912632609F002A2F53 /* test.caf in Resources */,
@@ -549,6 +586,7 @@
 				CA28C18226325E98002A2F53 /* WQAudioSaveTool.swift in Sources */,
 				CA82FA80259AC6090010D2BA /* SwifterVC.swift in Sources */,
 				CA505E99258761680082360C /* AudioRecorderModel.swift in Sources */,
+				CA62DB9E2694E9E300076FD8 /* DGVoiceBGMList_Vc.swift in Sources */,
 				CA28C18426325E98002A2F53 /* WQAudioEditModel.swift in Sources */,
 				CA505E88258737440082360C /* VoiceRecordEditVC+UI.swift in Sources */,
 				CAF8EC352595857D0006868E /* OCRSwiftDemo.swift in Sources */,
@@ -566,6 +604,8 @@
 				CAA71085260CA6270084191B /* SpectrumView.swift in Sources */,
 				CA6F669025AD8E320066BACD /* OpenAppViewController.swift in Sources */,
 				CA5757222643BB4300FE2060 /* DGVoiceMixTools.swift in Sources */,
+				CA62DBA62694ECB400076FD8 /* DGVoiceBGMList_Tc.swift in Sources */,
+				CA0AAED12693E9140096F077 /* DGVoiceMixFileManager.swift in Sources */,
 				CAA71081260C9C7A0084191B /* CAShapeLayerDome.swift in Sources */,
 				CA28C18326325E98002A2F53 /* WQAudioEditAction.swift in Sources */,
 				CA505E9325873F650082360C /* UIColorExtension.swift in Sources */,

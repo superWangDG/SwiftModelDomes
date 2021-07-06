@@ -16,6 +16,7 @@ inhibit_all_warnings!
 
 pod 'SwiftyTesseract'
 pod 'SwifterSwift'
+pod 'HandyJSON', '~> 5.0.2'
 # pod 'KSPlayer',:git => 'https://github.com/kingslay/KSPlayer.git', :branch => 'develop'
  #   pod 'FFmpeg',:git => 'https://github.com/kingslay/KSPlayer.git', :branch => 'develop'
   #  pod 'Openssl',:git => 'https://github.com/kingslay/KSPlayer.git', :branch => 'develop'
